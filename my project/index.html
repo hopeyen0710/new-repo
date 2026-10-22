@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#bfe0f4">
+    <title>天空島</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/three@0.155.0/build/three.min.js" defer></script>
+    <script type="module" src="src/game.js"></script>
+  </head>
+  <body>
+    <main id="game" aria-label="天空島 3D 方塊遊戲">
+      <div id="overlay" class="overlay">
+        <section class="card">
+          <p class="eyebrow">SKY ISLAND</p>
+          <h1>天空島</h1>
+          <p>在雲端的小島上走走吧。</p>
+          <button id="start" type="button">進入小島</button>
+          <p class="controls">W A S D 移動　·　空白鍵跳躍　·　滑鼠環視　·　Esc 離開</p>
+        </section>
+      </div>
+      <div id="crosshair" aria-hidden="true">＋</div>
+      <div id="hint" role="status">點擊畫面開始</div>
+      <noscript>請啟用 JavaScript 才能遊玩天空島。</noscript>
+    </main>
+  </body>
+</html>
